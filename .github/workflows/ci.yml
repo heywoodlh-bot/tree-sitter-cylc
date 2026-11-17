@@ -50,6 +50,6 @@ jobs:
           xargs rm -f < .github/workflows/parse-blacklist.txt
         shell: bash
       - name: Parse examples
-        uses: tree-sitter/parse-action@v4
+        uses: tree-sitter/parse-action@v5
         with:
           files: examples/**/*.cylc
